@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+/* ----------HEADER------------- */
+.header{
+  border: 2px solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  height: 50px;
+  align-items: center;
+  background-color: rgb(72, 139, 160);
+}
+
+.cart{
+  padding: 4px 10px;
+  font-size: 16px;
+  background: none;
+  border: none;
+  box-shadow: 0 0 3px black;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(180, 55, 153);
+}
+
+.cartName{
+  color: white;
+  
+}
+
+/* ---------ITEM-SECTION---------- */
+
+.itemContainer{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding: 32px 80px;
+  width: 70%;
+  margin:  0 auto;
+  grid-column-gap: 12px;
+  grid-row-gap : 18px
+}
+
+.card{
+  box-shadow: 0 0 5px gray;
+  width: 280px;
+}
+
+.imgContainer{
+  width: 100%;
+  height: 440px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.itemData{
+  padding: 8px;
+   background-color: rgb(72, 139, 160);
+   color: white;
+   height: 180px;
+   position: relative;
+}
+
+.itemName{
+  font-weight: bolder;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.price{
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.des{
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+footer{
+  text-align: end;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+
+
